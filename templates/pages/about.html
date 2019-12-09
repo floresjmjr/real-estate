@@ -1,6 +1,8 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} 
 
 {% load humanize %}
+
+{% block title %} | About Us {% endblock %}
 
 {% block content %}
 
@@ -36,7 +38,7 @@
         <div class="col-md-8">
           <h2>We Search For The Perfect Home</h2>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
-          <img src="{% static 'img/about.jpg' %}" alt="">
+          <!-- Some Image tag goes here, issue with static-->
           <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
             neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
             commodi id libero eveniet harum perferendis laborum molestias quia.</p>
