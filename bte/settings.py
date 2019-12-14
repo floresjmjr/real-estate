@@ -150,3 +150,7 @@ EMAIL_HOST_USER='email that will receive the message'
 EMAIL_HOST_PASSWORD='email password for that email'
 EMAIL_USE_TLS=True 
 
+try:
+    from.local_settings import *
+except ImportError:
+    pass
