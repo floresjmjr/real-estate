@@ -14,7 +14,10 @@ def index(request):
     "bedroom_choices": bedroom_choices,
     "price_choices": price_choices,
   }
-  return render(request, 'pages/index.html', context)
+  return render(request, 'pages/index.html', context)  
+
+def home(request):
+  return render(request, 'pages/home.html')
 
 def about(request):
   realtors = Realtor.objects.order_by('-hire_date')
