@@ -1,4 +1,4 @@
-#!/Users/jorge/Desktop/tutorials/bte_project/venv/bin/python
+#!/Users/jorge/Desktop/django_projects/bte_project/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
